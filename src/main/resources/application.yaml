@@ -1,0 +1,7 @@
+vts:
+  url: ${VTS_URL}
+  cano: ${VTS_CANO}
+  appKey: ${VTS_APP_KEY}
+  appSecret: ${VTS_APP_SECRET}
+  token: ${VTS_TOKEN}
+  transactionId: ${VTS_TR_ID:FHKST01010100}
