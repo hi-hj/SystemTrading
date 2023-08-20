@@ -9,5 +9,5 @@ data class VtsProperties(
     val appKey: String,
     val appSecret: String,
     val token: String,
-    val transactionId: String,
+    val transactionId: String
 )

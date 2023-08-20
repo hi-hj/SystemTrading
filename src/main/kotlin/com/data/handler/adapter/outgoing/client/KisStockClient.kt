@@ -6,7 +6,7 @@ import org.springframework.web.reactive.function.client.WebClient
 
 @Component
 class KisStockClient(
-    private val vtsProperties: VtsProperties,
+    private val vtsProperties: VtsProperties
 ) {
     val webClient: WebClient = WebClient.builder()
         .baseUrl(vtsProperties.url)

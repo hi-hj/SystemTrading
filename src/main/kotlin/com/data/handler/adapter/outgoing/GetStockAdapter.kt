@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component
 @Component
 class GetStockAdapter(
     private val kisStockClient: KisStockClient,
-    private val vtsProperties: VtsProperties,
+    private val vtsProperties: VtsProperties
 ) : GetStockOutPort {
 
     override suspend fun getStockInfo(symbol: String): String {
